@@ -1,0 +1,35 @@
+#messenger {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  width: 200px;
+  height: 300px;
+  z-index: 4;
+  background-color: #ECECEC;
+  border: 1px solid #000;
+}
+#messenger.p {
+  text-align: right;
+}
+#contacts {
+  margin: 5px 5px 5px 5px;
+}
+#chatspace {
+  position: fixed;
+  bottom: 0px;
+  right: 240px;
+  height: 20px;
+  left: 20px;
+  background-color: #ECECEC;
+  border: 1px solid #000;
+  z-index: 4;
+}
+.chatbox {
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  height: 200px;
+  z-index: 4;
+  background-color: #ECECEC;
+  border: 1px solid #000;
+}
